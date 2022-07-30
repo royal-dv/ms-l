@@ -1,0 +1,22 @@
+import { apis } from '@/constants/apis'
+
+const {
+  VITE_TENDERLY_USER: TENDERLY_USER,
+  VITE_TENDERLY_PROJECT: TENDERLY_PROJECT,
+  VITE_TENDERLY_ACCESS_KEY: TENDERLY_ACCESS_KEY,
+  ...rest
+} = import.meta.env
+
+const SIMULATE_URL = `${apis.TENDERLY_API}account/${TENDERLY_USER}/project/${TENDERLY_PROJECT}/simulate`
+const TENDERLY_FORK_API = `${apis.TENDERLY_API}v1/account/${TENDERLY_USER}/project/${TENDERLY_PROJECT}/fork`
+const TENDERLY_FORK_SIMULATE = `${apis.TENDERLY_API}v1/account/${TENDERLY_USER}/project/${TENDERLY_PROJECT}/simulate`
+
+const TENDERLY_FORK_DELETE = `${apis.TENDERLY_API}v2/project/${TENDERLY_PROJECT}/forks`
+
+export const tenderly = {
+  SIMULATE_URL,
+  TENDERLY_FORK_API,
+  TENDERLY_ACCESS_KEY,
+  TENDERLY_FORK_DELETE,
+  TENDERLY_FORK_SIMULATE,
+}

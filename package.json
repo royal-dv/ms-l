@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "nuxt": "3.0.0-rc.4",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.9",
+    "@popperjs/core": "^2.11.5",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "ethers": "^5.6.9",
+    "gas-price-oracle": "git+https://github.com/peppersec/gas-price-oracle.git#da3de92dea7c75afc2c8ba141f23c4eea597a614",
+    "merkletreejs": "^0.2.32",
+    "node-sass": "^7.0.1",
+    "parse-duration": "^1.0.2",
+    "pinia": "^2.0.14",
+    "vue-i18n": "^9.1.10",
+    "vue3-carousel": "^0.1.40",
+    "vue3-simple-typeahead": "^1.0.7",
+    "vueperslides": "^3.4.2"
+  }
+}

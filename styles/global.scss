@@ -1,0 +1,54 @@
+@import '../assets/fonts/montserrat.css';
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #0b124e;
+  // background-image: radial-gradient(
+  //     circle at left 60%,
+  //     rgba(20, 44, 255, 0.4),
+  //     rgba(20, 44, 255, 0),
+  //     rgba(20, 44, 255, 0),
+  //     rgba(20, 44, 255, 0)
+  //   ),
+  //   radial-gradient(circle at right 60%, rgba(20, 44, 255, 0.4), rgba(20, 44, 255, 0), rgba(20, 44, 255, 0), rgba(20, 44, 255, 0));
+  background-attachment: fixed;
+  background: radial-gradient(circle, rgba(6,12,52,1) 0%, rgba(3,9,39,1) 50%, rgba(3,10,43,1) 100%);
+  // background: radial-gradient(circle, rgba(7, 13, 54, 1) 0%, rgb(9 21 80) 50%, rgba(4, 10, 42, 1) 100%);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transition: all 0.3s;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ffffff -30.08%, #1c77ff 94.06%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text {
+  color: #76a6ee;
+  text-align: justify;
+}
+
+.white-text {
+  color: #ffffff;
+  text-align: justify;
+}
+
+.big-text {
+  color: #fff;
+}
