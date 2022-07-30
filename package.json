@@ -17,7 +17,6 @@
     "axios": "^0.27.2",
     "buffer": "^6.0.3",
     "ethers": "^5.6.9",
-    "gas-price-oracle": "git+https://github.com/peppersec/gas-price-oracle.git#da3de92dea7c75afc2c8ba141f23c4eea597a614",
     "merkletreejs": "^0.2.32",
     "node-sass": "^7.0.1",
     "parse-duration": "^1.0.2",
